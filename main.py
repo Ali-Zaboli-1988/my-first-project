@@ -7,3 +7,6 @@ def greet_formally(name):
 if __name__ == "__main__":
     print(greet("World"))
     print(greet_formally("Professor"))
+
+def farewell(name):
+    return f"Goodbye, {name}!"
