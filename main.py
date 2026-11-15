@@ -3,6 +3,7 @@ def greet(name):
     return f"Hello, {name}!"
 
 def greet_formally(name):
+    """Return a formal greeting for the given name."""
     return f"Good day, {name}. How do you do?"
 
 def farewell(name):
